@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "939D608D1E3211C100C482F2"
+               BuildableName = "DDP_Wufer.app"
+               BlueprintName = "DDP_Wufer"
+               ReferencedContainer = "container:DDP_Wufer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "939D60A91E3211C200C482F2"
+               BuildableName = "DDP_WuferTests.xctest"
+               BlueprintName = "DDP_WuferTests"
+               ReferencedContainer = "container:DDP_Wufer.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "939D60B41E3211C200C482F2"
+               BuildableName = "DDP_WuferUITests.xctest"
+               BlueprintName = "DDP_WuferUITests"
+               ReferencedContainer = "container:DDP_Wufer.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "939D608D1E3211C100C482F2"
+            BuildableName = "DDP_Wufer.app"
+            BlueprintName = "DDP_Wufer"
+            ReferencedContainer = "container:DDP_Wufer.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "939D608D1E3211C100C482F2"
+            BuildableName = "DDP_Wufer.app"
+            BlueprintName = "DDP_Wufer"
+            ReferencedContainer = "container:DDP_Wufer.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "939D608D1E3211C100C482F2"
+            BuildableName = "DDP_Wufer.app"
+            BlueprintName = "DDP_Wufer"
+            ReferencedContainer = "container:DDP_Wufer.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
