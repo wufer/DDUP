@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"基本数据类型练习");
+    NSLog(@"1---基本数据类型练习");
     // Do any additional setup after loading the view.
 }
 

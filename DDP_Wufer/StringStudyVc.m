@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"字符串类型练习");
+    NSLog(@"1---字符串类型练习");
     NSString *str1 = @"<hello,wo  r d!>";
     //删除字符串两端的尖括号
     NSMutableString *mString = [NSMutableString stringWithString:str1];
