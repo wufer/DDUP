@@ -18,6 +18,7 @@
 		939D60A41E3211C100C482F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939D60A21E3211C100C482F2 /* LaunchScreen.storyboard */; };
 		939D60AF1E3211C200C482F2 /* DDP_WuferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 939D60AE1E3211C200C482F2 /* DDP_WuferTests.m */; };
 		939D60BA1E3211C200C482F2 /* DDP_WuferUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 939D60B91E3211C200C482F2 /* DDP_WuferUITests.m */; };
+		93C7CB791E4855570046E254 /* baseValueStudyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C7CB781E4855570046E254 /* baseValueStudyVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		939D60B51E3211C200C482F2 /* DDP_WuferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDP_WuferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		939D60B91E3211C200C482F2 /* DDP_WuferUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDP_WuferUITests.m; sourceTree = "<group>"; };
 		939D60BB1E3211C200C482F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C7CB771E4855570046E254 /* baseValueStudyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseValueStudyVC.h; sourceTree = "<group>"; };
+		93C7CB781E4855570046E254 /* baseValueStudyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseValueStudyVC.m; sourceTree = "<group>"; };
 		E7C505687CE0FF0E9F1BCC96 /* Pods-DDP_Wufer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDP_Wufer.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDP_Wufer/Pods-DDP_Wufer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +139,8 @@
 				939D60981E3211C100C482F2 /* ViewController.m */,
 				937A35521E36056700B11B5A /* StringStudyVc.h */,
 				937A35531E36056700B11B5A /* StringStudyVc.m */,
+				93C7CB771E4855570046E254 /* baseValueStudyVC.h */,
+				93C7CB781E4855570046E254 /* baseValueStudyVC.m */,
 				939D609A1E3211C100C482F2 /* Main.storyboard */,
 				939D60A01E3211C100C482F2 /* Assets.xcassets */,
 				939D60A21E3211C100C482F2 /* LaunchScreen.storyboard */,
@@ -360,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				939D60991E3211C100C482F2 /* ViewController.m in Sources */,
+				93C7CB791E4855570046E254 /* baseValueStudyVC.m in Sources */,
 				939D60961E3211C100C482F2 /* AppDelegate.m in Sources */,
 				937A35541E36056700B11B5A /* StringStudyVc.m in Sources */,
 				939D609F1E3211C100C482F2 /* DDP_Wufer.xcdatamodeld in Sources */,
