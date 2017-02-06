@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56DAA219B8B504787419D843 /* libPods-DDP_Wufer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE7F3D5E25C50A37032FDE5 /* libPods-DDP_Wufer.a */; };
+		937A35541E36056700B11B5A /* StringStudyVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 937A35531E36056700B11B5A /* StringStudyVc.m */; };
 		939D60931E3211C100C482F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 939D60921E3211C100C482F2 /* main.m */; };
 		939D60961E3211C100C482F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 939D60951E3211C100C482F2 /* AppDelegate.m */; };
 		939D60991E3211C100C482F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 939D60981E3211C100C482F2 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		1DE7F3D5E25C50A37032FDE5 /* libPods-DDP_Wufer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDP_Wufer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		600E0D29C1C1A48ADEA5FE57 /* Pods-DDP_Wufer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDP_Wufer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDP_Wufer/Pods-DDP_Wufer.debug.xcconfig"; sourceTree = "<group>"; };
+		937A35521E36056700B11B5A /* StringStudyVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringStudyVc.h; sourceTree = "<group>"; };
+		937A35531E36056700B11B5A /* StringStudyVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringStudyVc.m; sourceTree = "<group>"; };
 		939D608E1E3211C100C482F2 /* DDP_Wufer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDP_Wufer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939D60921E3211C100C482F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		939D60941E3211C100C482F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,6 +134,8 @@
 				939D60951E3211C100C482F2 /* AppDelegate.m */,
 				939D60971E3211C100C482F2 /* ViewController.h */,
 				939D60981E3211C100C482F2 /* ViewController.m */,
+				937A35521E36056700B11B5A /* StringStudyVc.h */,
+				937A35531E36056700B11B5A /* StringStudyVc.m */,
 				939D609A1E3211C100C482F2 /* Main.storyboard */,
 				939D60A01E3211C100C482F2 /* Assets.xcassets */,
 				939D60A21E3211C100C482F2 /* LaunchScreen.storyboard */,
@@ -356,6 +361,7 @@
 			files = (
 				939D60991E3211C100C482F2 /* ViewController.m in Sources */,
 				939D60961E3211C100C482F2 /* AppDelegate.m in Sources */,
+				937A35541E36056700B11B5A /* StringStudyVc.m in Sources */,
 				939D609F1E3211C100C482F2 /* DDP_Wufer.xcdatamodeld in Sources */,
 				939D60931E3211C100C482F2 /* main.m in Sources */,
 			);
@@ -597,6 +603,7 @@
 				939D60C01E3211C200C482F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		939D60C11E3211C200C482F2 /* Build configuration list for PBXNativeTarget "DDP_WuferTests" */ = {
 			isa = XCConfigurationList;
@@ -605,6 +612,7 @@
 				939D60C31E3211C200C482F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		939D60C41E3211C200C482F2 /* Build configuration list for PBXNativeTarget "DDP_WuferUITests" */ = {
 			isa = XCConfigurationList;
@@ -613,6 +621,7 @@
 				939D60C61E3211C200C482F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
