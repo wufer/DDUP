@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "baseValueStudyVC.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setFrame:CGRectMake(0, 0, 200, 200)];
+    [btn setBackgroundColor:[UIColor yellowColor]];
+    btn.center = self.view.center;
+    [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(baseValue) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+}
+
+-(void)baseValue{
+    baseValueStudyVC *vc = [[baseValueStudyVC alloc]init];
+    [self  presentViewController:vc animated:YES completion:nil];
+
 }
 
 
