@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "baseValueStudyVC.h"
+#import "StringStudyVc.h"
 
 @interface ViewController ()
 
@@ -24,7 +25,7 @@
     [btn setBackgroundColor:[UIColor yellowColor]];
     btn.center = self.view.center;
     [self.view addSubview:btn];
-    [btn addTarget:self action:@selector(baseValue) forControlEvents:UIControlEventTouchUpInside];
+    [btn addTarget:self action:@selector(string) forControlEvents:UIControlEventTouchUpInside];
     
     
 }
@@ -33,6 +34,11 @@
     baseValueStudyVC *vc = [[baseValueStudyVC alloc]init];
     [self  presentViewController:vc animated:YES completion:nil];
 
+}
+
+-(void)string{
+    StringStudyVc *vc = [[StringStudyVc alloc]init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 
