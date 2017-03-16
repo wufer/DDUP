@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		56DAA219B8B504787419D843 /* libPods-DDP_Wufer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE7F3D5E25C50A37032FDE5 /* libPods-DDP_Wufer.a */; };
+		933A28571E790BB600EC1122 /* TextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A28561E790BB600EC1122 /* TextModel.m */; };
+		935D4FA91E5A869D000DD109 /* baseSubVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 935D4FA81E5A869D000DD109 /* baseSubVc.m */; };
+		935D4FAA1E5A869D000DD109 /* baseSubVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 935D4FA81E5A869D000DD109 /* baseSubVc.m */; };
+		935D4FAB1E5A869D000DD109 /* baseSubVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 935D4FA81E5A869D000DD109 /* baseSubVc.m */; };
+		935D4FB41E5A9111000DD109 /* theardStudyVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 935D4FB31E5A9111000DD109 /* theardStudyVc.m */; };
+		935D4FB71E5ABE49000DD109 /* GCDStudyVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 935D4FB61E5ABE49000DD109 /* GCDStudyVc.m */; };
+		9368FA411E763002001000B0 /* do_3_13.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368FA401E763002001000B0 /* do_3_13.m */; };
+		9368FA421E763002001000B0 /* do_3_13.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368FA401E763002001000B0 /* do_3_13.m */; };
+		9368FA431E763002001000B0 /* do_3_13.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368FA401E763002001000B0 /* do_3_13.m */; };
+		9368FA461E7630E8001000B0 /* InterviewVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368FA451E7630E8001000B0 /* InterviewVc.m */; };
+		9368FA471E7630E8001000B0 /* InterviewVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368FA451E7630E8001000B0 /* InterviewVc.m */; };
+		9368FA481E7630E8001000B0 /* InterviewVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368FA451E7630E8001000B0 /* InterviewVc.m */; };
 		936D2D2B1E496E1500ABA0B0 /* baseValueStudyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D2D2A1E496E1500ABA0B0 /* baseValueStudyVC.m */; };
 		937649DB1E4AA69F0018E98C /* StringStudyVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 937649DA1E4AA69F0018E98C /* StringStudyVc.m */; };
 		939D60931E3211C100C482F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 939D60921E3211C100C482F2 /* main.m */; };
@@ -41,6 +53,20 @@
 /* Begin PBXFileReference section */
 		1DE7F3D5E25C50A37032FDE5 /* libPods-DDP_Wufer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDP_Wufer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		600E0D29C1C1A48ADEA5FE57 /* Pods-DDP_Wufer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDP_Wufer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDP_Wufer/Pods-DDP_Wufer.debug.xcconfig"; sourceTree = "<group>"; };
+		933A28551E790BB600EC1122 /* TextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextModel.h; sourceTree = "<group>"; };
+		933A28561E790BB600EC1122 /* TextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextModel.m; sourceTree = "<group>"; };
+		935D4FA71E5A869D000DD109 /* baseSubVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseSubVc.h; sourceTree = "<group>"; };
+		935D4FA81E5A869D000DD109 /* baseSubVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseSubVc.m; sourceTree = "<group>"; };
+		935D4FAC1E5A86B3000DD109 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		935D4FAD1E5A86C5000DD109 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		935D4FB21E5A9111000DD109 /* theardStudyVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theardStudyVc.h; sourceTree = "<group>"; };
+		935D4FB31E5A9111000DD109 /* theardStudyVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theardStudyVc.m; sourceTree = "<group>"; };
+		935D4FB51E5ABE49000DD109 /* GCDStudyVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDStudyVc.h; sourceTree = "<group>"; };
+		935D4FB61E5ABE49000DD109 /* GCDStudyVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDStudyVc.m; sourceTree = "<group>"; };
+		9368FA3F1E763002001000B0 /* do_3_13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = do_3_13.h; sourceTree = "<group>"; };
+		9368FA401E763002001000B0 /* do_3_13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = do_3_13.m; sourceTree = "<group>"; };
+		9368FA441E7630E8001000B0 /* InterviewVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterviewVc.h; sourceTree = "<group>"; };
+		9368FA451E7630E8001000B0 /* InterviewVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterviewVc.m; sourceTree = "<group>"; };
 		936D2D291E496E1500ABA0B0 /* baseValueStudyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseValueStudyVC.h; sourceTree = "<group>"; };
 		936D2D2A1E496E1500ABA0B0 /* baseValueStudyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseValueStudyVC.m; sourceTree = "<group>"; };
 		937649D91E4AA69F0018E98C /* StringStudyVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringStudyVc.h; sourceTree = "<group>"; };
@@ -108,6 +134,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		935D4FA61E5A8682000DD109 /* baseType */ = {
+			isa = PBXGroup;
+			children = (
+				935D4FA71E5A869D000DD109 /* baseSubVc.h */,
+				935D4FA81E5A869D000DD109 /* baseSubVc.m */,
+			);
+			path = baseType;
+			sourceTree = "<group>";
+		};
+		935D4FAE1E5A9024000DD109 /* <3>线程学习 */ = {
+			isa = PBXGroup;
+			children = (
+				935D4FB21E5A9111000DD109 /* theardStudyVc.h */,
+				935D4FB31E5A9111000DD109 /* theardStudyVc.m */,
+				935D4FB51E5ABE49000DD109 /* GCDStudyVc.h */,
+				935D4FB61E5ABE49000DD109 /* GCDStudyVc.m */,
+			);
+			path = "<3>线程学习";
+			sourceTree = "<group>";
+		};
 		936D2D281E496E1500ABA0B0 /* <1>基本数据类型学习 */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +166,12 @@
 		936D2D2C1E49ADFE00ABA0B0 /* <0>每天一道面试题 */ = {
 			isa = PBXGroup;
 			children = (
+				9368FA441E7630E8001000B0 /* InterviewVc.h */,
+				9368FA451E7630E8001000B0 /* InterviewVc.m */,
+				9368FA3F1E763002001000B0 /* do_3_13.h */,
+				9368FA401E763002001000B0 /* do_3_13.m */,
+				933A28551E790BB600EC1122 /* TextModel.h */,
+				933A28561E790BB600EC1122 /* TextModel.m */,
 			);
 			path = "<0>每天一道面试题";
 			sourceTree = "<group>";
@@ -159,11 +211,15 @@
 		939D60901E3211C100C482F2 /* DDP_Wufer */ = {
 			isa = PBXGroup;
 			children = (
+				935D4FA61E5A8682000DD109 /* baseType */,
 				939D60941E3211C100C482F2 /* AppDelegate.h */,
 				939D60951E3211C100C482F2 /* AppDelegate.m */,
+				935D4FAD1E5A86C5000DD109 /* Header.h */,
+				935D4FAC1E5A86B3000DD109 /* PrefixHeader.pch */,
 				936D2D2C1E49ADFE00ABA0B0 /* <0>每天一道面试题 */,
 				936D2D281E496E1500ABA0B0 /* <1>基本数据类型学习 */,
 				937649D81E4AA69F0018E98C /* <2>string学习 */,
+				935D4FAE1E5A9024000DD109 /* <3>线程学习 */,
 				939D60971E3211C100C482F2 /* ViewController.h */,
 				939D60981E3211C100C482F2 /* ViewController.m */,
 				939D609A1E3211C100C482F2 /* Main.storyboard */,
@@ -364,7 +420,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E99AB0A76507B1593CD4FC38 /* [CP] Embed Pods Frameworks */ = {
@@ -392,8 +448,14 @@
 				939D60991E3211C100C482F2 /* ViewController.m in Sources */,
 				936D2D2B1E496E1500ABA0B0 /* baseValueStudyVC.m in Sources */,
 				939D60961E3211C100C482F2 /* AppDelegate.m in Sources */,
+				935D4FA91E5A869D000DD109 /* baseSubVc.m in Sources */,
+				933A28571E790BB600EC1122 /* TextModel.m in Sources */,
+				935D4FB41E5A9111000DD109 /* theardStudyVc.m in Sources */,
 				939D609F1E3211C100C482F2 /* DDP_Wufer.xcdatamodeld in Sources */,
+				9368FA461E7630E8001000B0 /* InterviewVc.m in Sources */,
+				9368FA411E763002001000B0 /* do_3_13.m in Sources */,
 				939D60931E3211C100C482F2 /* main.m in Sources */,
+				935D4FB71E5ABE49000DD109 /* GCDStudyVc.m in Sources */,
 				937649DB1E4AA69F0018E98C /* StringStudyVc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +464,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				935D4FAA1E5A869D000DD109 /* baseSubVc.m in Sources */,
+				9368FA421E763002001000B0 /* do_3_13.m in Sources */,
+				9368FA471E7630E8001000B0 /* InterviewVc.m in Sources */,
 				939D60AF1E3211C200C482F2 /* DDP_WuferTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +475,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				935D4FAB1E5A869D000DD109 /* baseSubVc.m in Sources */,
+				9368FA431E763002001000B0 /* do_3_13.m in Sources */,
+				9368FA481E7630E8001000B0 /* InterviewVc.m in Sources */,
 				939D60BA1E3211C200C482F2 /* DDP_WuferUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,6 +613,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AX29Z297AL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DDP_Wufer/PrefixHeader.pch";
 				INFOPLIST_FILE = DDP_Wufer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Wf.DDP-Wufer";
@@ -558,6 +628,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AX29Z297AL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DDP_Wufer/PrefixHeader.pch";
 				INFOPLIST_FILE = DDP_Wufer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Wf.DDP-Wufer";

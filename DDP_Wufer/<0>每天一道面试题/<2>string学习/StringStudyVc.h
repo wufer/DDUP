@@ -8,13 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-
-
-
-
-@interface StringStudyVc : UIViewController
-
-
+@interface StringStudyVc : baseSubVc
 
 
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface baseValueStudyVC : UIViewController
+@interface baseValueStudyVC : baseSubVc
 
 @end
